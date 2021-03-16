@@ -224,7 +224,7 @@ spec:
         # az acr import --source docker.io/library/traefik:2.2.1 -n <your-acr-instance-name>
         # and then set this to
         # image: <your-acr-instance-name>.azurecr.io/library/traefik:2.2.1
-      - image: docker.io/library/traefik:2.2.1
+      - image: acraksg7h6lwgz3jkfe.azurecr.io/library/traefik:2.2.1
         name: traefik-ingress-controller
         resources:
           requests:
